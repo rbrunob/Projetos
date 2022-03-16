@@ -29,6 +29,10 @@ body {
     transition: .2s;
 }
 
+button.color-red {
+    color: rgb(255, 60, 0);
+}
+
 .grid-container>button:hover {
     background-color: #eee;
     color: #111;
@@ -43,6 +47,14 @@ body {
     grid-column: span 2;
 }
 
+.bottom-left {
+    border-radius: 0 0 0 10px;
+}
+
+.bottom-right {
+    border-radius: 0 0 10px 0;
+}
+
 .grid-container>.output {
     grid-column: 1/-1;
     background-color: #222;
@@ -53,6 +65,7 @@ body {
     padding: 10px;
     word-wrap: break-word;
     word-break: break-all;
+    border-radius: 10px 10px 0 0;
 }
 
 .grid-container>.output>.previous-operand {

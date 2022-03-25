@@ -6,4 +6,5 @@ Abaixo vou listar todos os projetos que estiverem nesse repositório, e conforme
 ### PROJETINHOS
 <ul>
   <li> Calculadora (JS/CSS/HTML) </li>
+  <li> Relógio (JS/CSS/HTML) </li>
 </ul>
